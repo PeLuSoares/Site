@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=no">
-    <link href="css.css" rel="stylesheet" />
-    <!-- Icones das páginas abaixo-->
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-    <link rel="manifest" href="icon/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="comoevitar.css" rel="stylesheet" />
 
-    <title>Como evitar</title>
+
+    <!-- Icones das páginas abaixo-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="../icon/site.webmanifest">
+
+    <title>Fake News</title>
+
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".MenuMobile").addEventListener("click",function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else{
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    } 
+            });
+        };
+        </script>
+
 </head>
 <body>
-    
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <a href><img src="../img/unnamed.png" /></a>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="MenuMobile">
+					<div class="LinhaMenu"></div>
+					<div class="LinhaMenu"></div>
+					<div class="LinhaMenu"></div>
+				</div>
+                <ul>
+                    <li><a href="../index.html">O que é</a></li>
+                    <li><a href="abas/comoevitar.html">Como evitar</a></li>
+                    <li><a href="abas/fakenewsfamosas.html">Fake news famosas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<footer>
+    <div class="container">
+        <div class="footer_menu">
+            <h1>Membros do grupo:</h1>
+            <ul>
+                <li>Caio máximo</li>
+                <li>Felipe Valverde</li>
+                <li>Luana Viegas</li>
+                <li>Matheus Manhaes</li>
+                <li>Pedro Lucas</li>
+                <li>Pedro Muniz</li>
+                <li>Vitor Barros</li>
+            </ul>
+            Copyright © 2021, Todos os direitos reservados :)
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
 </body>
 </html>
