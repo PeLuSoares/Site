@@ -213,4 +213,9 @@ footer{
         flex-direction: column;
         justify-content: space-around;
     }
+}#footer_ul{
+    display: grid;
+    margin-right: -100px;
+    margin-left:20px;
+    grid-template-columns: auto auto;
 }
