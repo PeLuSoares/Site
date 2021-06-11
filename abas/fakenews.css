@@ -228,3 +228,20 @@ body{
     max-width: 365px;
     height: auto;
   }
+
+  #tit1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 27px;
+
+  }
+
+  .news_famosas{
+      margin: 20px auto;
+      box-sizing: border-box;
+  }
+  #img1{
+      height: 120px;
+      width: 120px;
+  }
