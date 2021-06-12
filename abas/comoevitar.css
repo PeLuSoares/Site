@@ -42,16 +42,23 @@ nav a{
     font-family: arial;
 }
 nav a:hover{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.541);
     color: white;
 }
 #banner{
     display: flex;
     justify-content: center;
-    background-image:url('img/banner.jpg');
+    background-image:url('../img/maint.jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    height: 700px;
+}
+#bannermaint{
+    display: flex;
+    justify-content: center;
+    background-image:url('../img/maint.jpg');
+    background-position: center;
+    background-size: cover;
     height: 700px;
 }
 .column{
@@ -160,16 +167,8 @@ footer{
     padding-bottom: 15px;
 }
 .LinhaMenu{
-    height: 3px;
-    background-color: red;
-}
-.MenuMobile{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 20px;
+    height: 1px;
+    background-color: rgb(10, 10, 10);
 }
 @media (max-width: 600px) {
     .banner_headline{
@@ -214,7 +213,30 @@ footer{
         justify-content: space-around;
     }
 }
-.container_footer{
+
+body{
+    color: #666666;
+    text-align: center;
+  }
+  .box{
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+  }
+  #title {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  #descricao{
+    font-size:20px;
+    margin: 20px auto;
+  }
+  #logo {
+    margin-top: 25px;
+    max-width: 365px;
+    height: auto;
+  }
+  .container_footer{
     display: block;
     justify-content: space-between;
     width: 1200px;

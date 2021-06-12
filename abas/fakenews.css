@@ -51,7 +51,6 @@ nav a:hover{
     background-image:url('img/banner.jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     height: 700px;
 }
 .column{
@@ -159,17 +158,15 @@ footer{
     color: white;
     padding-bottom: 15px;
 }
-.LinhaMenu{
-    height: 3px;
-    background-color: red;
+#footer_ul{
+    display: grid;
+    margin-right: -100px;
+    margin-left:20px;
+    grid-template-columns: auto auto;
 }
-.MenuMobile{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-right: 20px;
+.LinhaMenu{
+    height: 1px;
+    background-color: rgb(0, 0, 0);
 }
 @media (max-width: 600px) {
     .banner_headline{
@@ -214,7 +211,29 @@ footer{
         justify-content: space-around;
     }
 }
-.container_footer{
+body{
+    color: #666666;
+    text-align: center;
+  }
+  .box{
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+  }
+  #title {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+  #descricao{
+    font-size:20px;
+    margin: 20px auto;
+  }
+  #logo {
+    margin-top: 25px;
+    max-width: 365px;
+    height: auto;
+  }
+  .container_footer{
     display: block;
     justify-content: space-between;
     width: 1200px;
@@ -231,5 +250,6 @@ footer{
     align-items: center;
     color: #fff;
     width: auto;
-    background-color: #0c0c0c;
+    padding-top: 10px;
+    background-color: #1E1B1B;
 }
