@@ -98,6 +98,7 @@ nav a:hover{
     color: black;
     font-size: 22px;
     font-weight: bold;
+    padding: 30px;
 }
 .widget_title_bar{
     width: 80px;
@@ -165,8 +166,16 @@ footer{
     grid-template-columns: auto auto;
 }
 .LinhaMenu{
-    height: 1px;
-    background-color: rgb(0, 0, 0);
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+}
+.MenuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 20px;
 }
 @media (max-width: 600px) {
     .banner_headline{
