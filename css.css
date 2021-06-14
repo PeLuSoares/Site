@@ -225,11 +225,3 @@ footer{
     margin-left:20px;
     grid-template-columns: auto auto;
 }
-.container__footer_baixo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    width: auto;
-    background-color: #0c0c0c;
-}
