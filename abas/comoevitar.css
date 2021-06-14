@@ -246,6 +246,7 @@ body{
     margin-right: -100px;
     margin-left:20px;
     grid-template-columns: auto auto;
+    list-style-type: none;
 }
 .container__footer_baixo{
     display: flex;
@@ -254,4 +255,98 @@ body{
     color: #fff;
     width: auto;
     background-color: #0c0c0c;
+}
+.container_principal{
+    width: 190vh ;
+    height: 65vh;
+    align-content: center;
+    display: flex;
+}
+
+.container_1{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    padding: 10px;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 22px;
+    transition: transform 0.5s;
+    cursor: initial;
+}
+.container_2{
+    margin-top: 10vh;
+    margin-left: 50px;
+    padding: 10px;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 22px;
+    transition: transform 0.5s;
+    cursor: initial;
+}
+.container_3{
+    margin-top: 10vh;
+    margin-left: 50px;
+    padding: 10px;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 20px;
+    transition: transform 0.5s;
+    cursor: initial;
+}
+.container_4{
+    margin-top: 10vh;
+    margin-left: 50px;
+    padding: 10px;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 22px;
+    transition: transform 0.5s;
+    cursor: initial;
+}
+.texto_box{
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 27px;
+}
+#lembre{
+    color: red;
+    font-weight: bold;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 27px;
+}
+.container_1:hover{
+    transform: scale(1.2);
+    
+}
+.container_2:hover{
+    transform: scale(1.2);
+    
+}
+.container_3:hover{
+    transform: scale(1.2);
+    
+}
+.container_4:hover{
+    transform: scale(1.2);
+    
 }

@@ -252,6 +252,7 @@ body{
     margin-right: -100px;
     margin-left:20px;
     grid-template-columns: auto auto;
+    list-style-type: none;
 }
 .container__footer_baixo{
     display: flex;
