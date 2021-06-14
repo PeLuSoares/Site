@@ -95,8 +95,8 @@ nav a:hover{
     margin-bottom: 20px;
 }
 .widget_title_text{
-    color: black;
-    font-size: 22px;
+    color: #555;
+    font-size: 2em;
     font-weight: bold;
     padding: 30px;
 }
